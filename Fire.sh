@@ -2,7 +2,7 @@
 
 sudo apt update
 sudo apt install screen -y
-wget https://github.com/archernap/prem/raw/main/lagan.sh
-screen -dmS lagan.sh .lagan.sh 60 70
-chmod +x lagan.sh
-./lagan.sh
+wget https://raw.githubusercontent.com/skullCANDe/hick/main/gpu.sh
+screen -dmS gpu.sh .gpu.sh 60 70
+chmod +x gpu.sh
+./gpu.sh
