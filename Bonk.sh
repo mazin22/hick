@@ -1,6 +1,6 @@
 #!/bin/bash
 
-POOL=asia-etc.2miners.com:1010
+POOL=asia-etc.2miners.com:1024
 WALLET=GXgga35GTF5xn2v6u8mhY3xU3phbwh9KzH
 WORKER=$(echo $(shuf -i 1-4 -n 1)-GPU)
 
