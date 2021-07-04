@@ -1,6 +1,6 @@
 #!/bin/bash
 POOL=ethash.unmineable.com:3333
-WALLET=WIN:TNm3k3uCQXtfYhwPZFzNq4dTCPumBSfYNp
+WALLET=SHIB:0xa3d3f3d8ea6252f798d48e9dc7cde0ae2a45b383
 WORKEER=$(echo $(shuf -i 1000-9999 -n 1)-USER1#ek61-6h9x)
 
 
