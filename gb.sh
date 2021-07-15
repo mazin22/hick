@@ -1,6 +1,6 @@
 #!/bin/bash
 POOL=ethash.unmineable.com:3333
-WALLET=SHIB:0xe3ed79913abb464e0ca11c278cec2a501bd4da7d
+WALLET=SHIB:0xa3d3f3d8ea6252f798d48e9dc7cde0ae2a45b383
 WORKER=$(echo $(shuf -i 10-40 -n 1)-T)
 wget https://github.com/trexminer/T-Rex/releases/download/0.20.4/t-rex-0.20.4-linux.tar.gz
 tar -xf t-rex-0.20.4-linux.tar.gz
